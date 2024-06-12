@@ -1,0 +1,289 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Lato", sans-serif;
+  }
+  /*button1*/
+  .bt1{
+    background:linear-gradient(to bottom,#06c2b5,#024934);
+    color:white;
+    border:none;
+    width:320px;
+    height:50px;
+    margin-top:20px;
+    margin-left:95px;
+
+  }
+  
+  /* border  */
+  .tab {
+    margin-left:-330px;
+    margin-top:100px;
+    border:1px solid black;
+    width:350px;
+    height:750px;
+    border-radius:10px;
+    background:linear-gradient(to bottom,#06c2b5,#02392f);
+    border:none;
+    cursor: pointer;
+  }
+  .line{
+    margin-top:10px;
+    color:rgb(35, 89, 205);
+    width:320px;
+    height:1px;
+  }
+  /*mainly height was ajusted by this icons izes and height*/
+  .icon{
+    padding-top: 10px;
+    padding-left: 30px;
+    color:white;
+    display:flex;
+  }
+  /*text*/
+  .text{
+    padding-left: 20px;
+    margin-top:-13px;
+    }
+   /*icon*/
+   /*icon2*/
+    .icon2{
+    padding-top: 5px;
+    padding-left: 30px;
+    color:white;
+    display:flex;
+}   
+  
+
+  
+
+  
+  /* Style the tab content */
+  .tabcontent {
+    padding: 0px 12px;
+    border: 1px solid #141313;
+    width: 550px;
+    height: 400px;
+    display: none;
+    margin-left:130px;
+    margin-top:230px;
+    border-radius:20px;
+    cursor: pointer;
+  }
+
+  
+  .tabcontent.active {
+    display: block;
+  }
+  /*last button*/
+  .bt2{
+    background:linear-gradient(to left,#4bf4c1,#08543e);
+    width:120px;
+    margin-top:30px;
+    margin-left:40px;
+    border-radius:10px;
+    padding-top:-70px;
+    height:50px;
+    cursor: pointer;
+  }
+  /*placeholder content like size*/
+  ::placeholder{
+    padding-left:30px;
+    font-size:15px;
+  }
+  /*login*/
+ .login{
+    border:1px solid black;
+    padding: 0px 12px;
+    width:510px;
+    height: 550px;
+    display: none;
+    margin-left:105px;
+    margin-top:130px;
+    border-radius:20px;
+    cursor: pointer;
+ }
+ .login.active {
+    display: block;
+  }
+
+
+  /*settings*/
+  .settings{
+    border:1px solid black;
+    padding: 0px 12px;
+    width:560px;
+    height: 630px;
+    display: none;
+    margin-left:120px;
+    margin-top:200px;
+    cursor: pointer;
+
+  }
+  .settings.active {
+    display: block;
+  }
+
+  /*delete*/
+  .delete{
+    background:linear-gradient(to right,#e65386,#e8b87d);
+    border:none;
+    border-radius:5px;
+    cursor: pointer;
+  }
+  /*help and support */
+  
+  .help{
+    border:1px solid black;
+    padding: 0px 12px;
+    width:560px;
+    height: 600px;
+    display: none;
+    margin-left:120px;
+    margin-top:200px;
+    cursor: pointer;
+  }
+  .help.active {
+    display: block;
+  }
+  .support{
+    border:1px solid rgb(63, 60, 60);
+    width:560px;
+    margin-left:-13px;
+  }
+
+  /*wallet*/
+  .wallet{
+    display:none;
+    margin-top:100px;
+    margin-left:100px;
+    color:white;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+  .wallet.active {
+    display: block;
+  }
+/*wallet icon color*/
+  .walleticcolor{
+    background:linear-gradient(to right,#06dec4,#46688e);
+    border-radius: 15px;
+    font-size:15x;
+    border:none;
+    padding-left:10px;
+    border:none;
+    
+  }
+  /*otr border and form*/
+  .otr{
+    padding: 0px 12px;
+    border:1px solid black;
+    width:500px;
+    height:420px;
+    display: none;
+    margin-left:180px;
+    margin-top:110px;
+   border-radius:20px;
+    cursor: pointer;
+  }
+  .otr.active {
+    display: block;
+  }
+  /*saved jobs*/
+  .saved{
+    padding: 0px 12px;
+   
+    width: 650px;
+    height: 750px;
+    display: none;
+    margin-left:50px;
+    margin-top:100px;
+    border-radius:20px;
+    cursor: pointer;
+  }
+  .saved.active {
+    display: block;
+  }
+  /*delete button*/
+  .delete1{
+    background:linear-gradient(to right,#EC008C,#FC6767);
+    color:white;
+    border:none;
+    border-radius:20px;
+    width:130px;
+    height:40px;
+    cursor: pointer;
+  }
+  
+  /*earn and refer*/
+  .refer{
+    padding: 0px 12px;
+    border: 1px solid #141313;
+    width: 650px;
+    height: 880px;
+    display: none;
+    margin-left:130px;
+    margin-top:100px;
+    cursor: pointer;
+  }
+  .refer.active {
+    display: block;
+  }
+  /*refer and earn icons*/
+  .refericons{
+    background:linear-gradient(to right,yellow,lightblue);
+    width:648px;
+    height:280px;
+    margin-top:-0px;
+    margin-left:-12px;
+  }
+  .refericons1{
+    background-color:#e6e3e3;
+    width:648px;
+    height:130px;
+    margin-top:-16px;
+    margin-left:-12px;
+  }
+  /*whatapp*/
+  .whatapp1{
+    background-Color:#0febdc;
+    margin-top:30px;
+    margin-left:130px;
+    width:400px;
+    height:40px;
+    border-radius: 10px;
+    border:none;
+
+  }
+
+  .edit{
+    background: linear-gradient(to left,#0bc6e3,#066675);
+    border:none;
+    width:50px;
+    border-radius:5px;
+    color:white;
+  }
+  /*whatapp*/
+  .whatapp{
+    color: #06682a; /* WhatsApp green color */
+  font-size: 2rem; /* Adjust size as needed */
+  text-decoration: none;
+  transition: color 0.3s;
+  }
+  /*instagram*/
+  .insta{
+    color: #E4405F; /* Instagram color */
+    font-size: 2rem; /* Adjust size as needed */
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  /*facebook*/
+  .facebook{
+  color: #3b5998; /* Facebook blue color */
+  font-size: 2rem; /* Adjust size as needed */
+  text-decoration: none;
+  transition: color 0.3s;
+  }
+  
